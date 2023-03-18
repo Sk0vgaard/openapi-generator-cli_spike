@@ -6,9 +6,5 @@
   },
   "generatorName": "typescript-angular",
   "inputSpec": "openapi.yaml",
-  "output": "src/app/api",
-  "additionalProperties": {
-    "modelFolder": "models",
-    "apiFolder": "services"
-  }
+  "outputDir": "openapi-generator"
 }
