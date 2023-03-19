@@ -4,7 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `npm run start` for a development server.
+- Run `npm run start:prod` for a production server.
+- Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -69,7 +71,7 @@ To generate the API client code using the provided openapitools.json, run the fo
 or
 `npx @openapitools/openapi-generator-cli generate -i path/to/openapi.yaml -g typescript-angular -o openapi-generator`
 
-Another alternative is to use the script `npm run generate:openapi` which uses the config in openapitools.json
+Another alternative is to use the script `npm run openapi-generate:dev` or `npm run openapi-generate:prod` which uses the config in openapitools.json
 
 
 ## Integration
@@ -141,9 +143,9 @@ src/
 - `base.service.ts`: The base service file with common logic for making API calls.
 - `api-client.ts`: The API client file, which is a simple HTTP client that wraps the Angular HttpClient.
 
-Inside the `models` folder:
+Inside the `model` folder:
 - `user.ts`: TypeScript model file representing the User schema.
 
-Inside the `services` folder:
+Inside the `api` folder:
 - `user.service.ts`: TypeScript service file containing methods for making HTTP requests to the User API endpoints.
 
