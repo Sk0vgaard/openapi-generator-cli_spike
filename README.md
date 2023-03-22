@@ -57,10 +57,13 @@ Create a configuration file openapitools.json in your project's root directory:
   },
   "generatorName": "typescript-angular",
   "inputSpec": "openapi.yaml",
-  "outputDir": "openapi-generator"
+  "outputDir": "openapi-generator",
+  "additionalProperties": {
+    "basePath": "environment.path"
 }
 ```
-This configuration uses the typescript-angular generator, with the input OpenAPI specification file openapi.yaml, and outputs the generated code to the openapi-generator directory. It also adds a "Service" suffix to the API names.
+This configuration uses the typescript-angular generator, with the input OpenAPI specification file openapi.yaml, and outputs the generated code to the openapi-generator directory. 
+It also adds a "environment.path" as basePath to support multiple environments.
 
 ## Generating API client code
 To generate the API client code using the provided openapitools.json, run the following command:
