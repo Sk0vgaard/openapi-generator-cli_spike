@@ -6,5 +6,8 @@
   },
   "generatorName": "typescript-angular",
   "inputSpec": "openapi.yaml",
-  "outputDir": "openapi-generator"
+  "outputDir": "openapi-generator",
+  "additionalProperties": {
+    "basePath": "environment.path"
+  }
 }
