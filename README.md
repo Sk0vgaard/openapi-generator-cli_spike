@@ -29,7 +29,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-# Angular OpenAPI Generated Client
+# [OpenAPI Generator - typescript-angular](https://openapi-generator.tech/docs/generators/typescript-angular)
+
+[GitHub Repo - openapi-generator](https://github.com/OpenAPITools/openapi-generator)
+
+[GitHub Repo - openapi-generator-cli](https://www.npmjs.com/package/@openapitools/openapi-generator-cli)
+
 
 This README describes how to generate Angular services, models, and enums from an OpenAPI YAML file and integrate them into an Angular application.
 This README provides instructions on how to generate and use API client code for your project using the OpenAPI Generator CLI.
@@ -106,8 +111,6 @@ this.apiService.getSomething().subscribe(response => {
 });
 ```
 4. Remember to update the import statements and regenerate the code whenever you update the OpenAPI specification.
-
-
 
 ## OpenAPI YAML File
 
