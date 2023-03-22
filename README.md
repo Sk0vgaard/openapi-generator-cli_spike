@@ -60,6 +60,7 @@ Create a configuration file openapitools.json in your project's root directory:
   "outputDir": "openapi-generator",
   "additionalProperties": {
     "basePath": "environment.path"
+    }
 }
 ```
 This configuration uses the typescript-angular generator, with the input OpenAPI specification file openapi.yaml, and outputs the generated code to the openapi-generator directory. 
